@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0D227F7C-6386-4246-9EC5-C6DEF00774EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SharedTasks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>DE2E99072B7ADB5EF36E2E86EAADC9DFB9659B27</key>
+		<string>github.com:jverrone3/SharedTasks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SharedTasks.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>DE2E99072B7ADB5EF36E2E86EAADC9DFB9659B27</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:jverrone3/SharedTasks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>DE2E99072B7ADB5EF36E2E86EAADC9DFB9659B27</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>DE2E99072B7ADB5EF36E2E86EAADC9DFB9659B27</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SharedTasks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
