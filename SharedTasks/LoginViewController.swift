@@ -24,17 +24,25 @@ class LoginViewController: UIViewController {
         self.actInd.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.Gray
         view.addSubview(actInd)
         
-//        UIGraphicsBeginImageContext(self.view.frame.size)
-//        UIImage(named: "splash.jpg")?.drawInRect(self.view.bounds)
-//        var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
-//        UIGraphicsEndImageContext()
-//        
-//        self.view.backgroundColor = UIColor(patternImage: image)
+        UIGraphicsBeginImageContext(self.view.frame.size)
+        UIImage(named: "splash.jpg")?.drawInRect(self.view.bounds)
+        var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        self.view.backgroundColor = UIColor(patternImage: image)
     }
 
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
+        
+    }
+    
+    override func viewDidDisappear(animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        self.usernameText.text = ""
+        self.passwordText.text = ""
         
     }
     override func didReceiveMemoryWarning() {
@@ -72,8 +80,7 @@ class LoginViewController: UIViewController {
                 self.actInd.stopAnimating()
                 
                 if (user != nil) {
-                    var alert = UIAlertView(title: "Success", message: "Logged in.", delegate: self, cancelButtonTitle: "OK")
-                    alert.show()
+                    self.dismissViewControllerAnimated(true, completion: nil)
                 } else {
                     var alert = UIAlertView(title: "Error", message: "\(error)", delegate: self, cancelButtonTitle: "OK")
                     alert.show()

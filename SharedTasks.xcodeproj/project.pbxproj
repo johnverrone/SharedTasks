@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526384861B093C5300EF10CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526384851B093C5300EF10CC /* HomeViewController.swift */; };
+		526384881B097FAA00EF10CC /* MasterListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526384871B097FAA00EF10CC /* MasterListsTableViewController.swift */; };
+		5263848A1B0AAD8E00EF10CC /* MasterGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526384891B0AAD8E00EF10CC /* MasterGroupsTableViewController.swift */; };
 		52F8A6CF1B069CAA00ABA8AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8A6CE1B069CAA00ABA8AB /* AppDelegate.swift */; };
 		52F8A6D41B069CAA00ABA8AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F8A6D21B069CAA00ABA8AB /* Main.storyboard */; };
 		52F8A6D61B069CAA00ABA8AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F8A6D51B069CAA00ABA8AB /* Images.xcassets */; };
@@ -34,8 +37,6 @@
 		52F8A7181B069F5000ABA8AB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8A7171B069F5000ABA8AB /* SystemConfiguration.framework */; };
 		52F8A71A1B069F5800ABA8AB /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8A7191B069F5800ABA8AB /* libz.dylib */; };
 		52F8A71C1B069F6000ABA8AB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8A71B1B069F6000ABA8AB /* libsqlite3.dylib */; };
-		52F8A71F1B06A8E500ABA8AB /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8A71E1B06A8E500ABA8AB /* MasterTableViewController.swift */; };
-		52F8A7211B06A96C00ABA8AB /* AddTaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8A7201B06A96C00ABA8AB /* AddTaskTableViewController.swift */; };
 		52F8A7231B06B65A00ABA8AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8A7221B06B65A00ABA8AB /* LoginViewController.swift */; };
 		52F8A7251B077EB400ABA8AB /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52F8A7241B077EB400ABA8AB /* ParseUI.framework */; };
 		52F8A7271B07A57900ABA8AB /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F8A7261B07A57900ABA8AB /* SignupViewController.swift */; };
@@ -53,6 +54,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		526384851B093C5300EF10CC /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		526384871B097FAA00EF10CC /* MasterListsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterListsTableViewController.swift; sourceTree = "<group>"; };
+		526384891B0AAD8E00EF10CC /* MasterGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterGroupsTableViewController.swift; sourceTree = "<group>"; };
 		52F8A6C91B069CAA00ABA8AB /* SharedTasks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SharedTasks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F8A6CD1B069CAA00ABA8AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52F8A6CE1B069CAA00ABA8AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,8 +89,6 @@
 		52F8A7191B069F5800ABA8AB /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		52F8A71B1B069F6000ABA8AB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		52F8A71D1B069FB500ABA8AB /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		52F8A71E1B06A8E500ABA8AB /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
-		52F8A7201B06A96C00ABA8AB /* AddTaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskTableViewController.swift; sourceTree = "<group>"; };
 		52F8A7221B06B65A00ABA8AB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		52F8A7241B077EB400ABA8AB /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
 		52F8A7261B07A57900ABA8AB /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
@@ -159,8 +161,9 @@
 				52F8A6CE1B069CAA00ABA8AB /* AppDelegate.swift */,
 				52F8A7221B06B65A00ABA8AB /* LoginViewController.swift */,
 				52F8A7261B07A57900ABA8AB /* SignupViewController.swift */,
-				52F8A71E1B06A8E500ABA8AB /* MasterTableViewController.swift */,
-				52F8A7201B06A96C00ABA8AB /* AddTaskTableViewController.swift */,
+				526384891B0AAD8E00EF10CC /* MasterGroupsTableViewController.swift */,
+				526384871B097FAA00EF10CC /* MasterListsTableViewController.swift */,
+				526384851B093C5300EF10CC /* HomeViewController.swift */,
 				52F8A6D21B069CAA00ABA8AB /* Main.storyboard */,
 				52F8A6D51B069CAA00ABA8AB /* Images.xcassets */,
 				52F8A6D71B069CAA00ABA8AB /* LaunchScreen.xib */,
@@ -327,11 +330,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				526384881B097FAA00EF10CC /* MasterListsTableViewController.swift in Sources */,
+				5263848A1B0AAD8E00EF10CC /* MasterGroupsTableViewController.swift in Sources */,
 				52F8A7231B06B65A00ABA8AB /* LoginViewController.swift in Sources */,
-				52F8A7211B06A96C00ABA8AB /* AddTaskTableViewController.swift in Sources */,
 				52F8A7271B07A57900ABA8AB /* SignupViewController.swift in Sources */,
 				52F8A6CF1B069CAA00ABA8AB /* AppDelegate.swift in Sources */,
-				52F8A71F1B06A8E500ABA8AB /* MasterTableViewController.swift in Sources */,
+				526384861B093C5300EF10CC /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +543,7 @@
 				52F8A6EA1B069CAA00ABA8AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52F8A6EB1B069CAA00ABA8AB /* Build configuration list for PBXNativeTarget "SharedTasksTests" */ = {
 			isa = XCConfigurationList;
@@ -547,6 +552,7 @@
 				52F8A6ED1B069CAA00ABA8AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
